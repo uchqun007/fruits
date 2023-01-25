@@ -121,6 +121,9 @@ header .nav_left span .price{
    font-size: 16px;
    color: #000;
 }
+.radial_tel a{
+  color:#111
+}
 /* END HEADER */
 
 /* START HEADER BOTTOM */
@@ -157,7 +160,7 @@ header .nav_left span .price{
 }
 
 .head_bot_center{
-     width: 100%;
+     width: 76%;
      height: 100%;
      margin: 0 20px;
 }
@@ -217,7 +220,7 @@ header .nav_left span .price{
     font-size: 20px;
 }
 .head_bot_right {
-    width: 350px;
+    width: 24%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -231,6 +234,9 @@ header .nav_left span .price{
     color: #999;
     margin-top: 15px;
     font-size: 12px;
+}
+.head_bot_right .tel_num a{
+  color: #111;
 }
 
 /* END HEADER BOTTOM */
@@ -248,7 +254,7 @@ main{
 }
 
 .main_left{
-  width: 350px;
+  width: 24%;
   height: 100%;
   border: 1px solid rgba(42, 42, 42, 0.2);
   padding: 16px 0 0 20px;
@@ -264,7 +270,7 @@ main{
 }
 
 .main_right{
-  width: 100%;
+  width: 76%;
   height: 100%;
   background: #F5F5F5;
   margin-left: 20px;
@@ -308,6 +314,123 @@ main{
   color: #FFFFFF;
   margin-top: 60px;
 }
+
+.cards{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cards .card{
+  width: 100%;
+  height: 270px;
+  background: #F5F5F5;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards .card:first-child{
+  margin-left: 0;
+}
+
+.cards .card button{
+  background: #FFFFFF;
+  height: 43px;
+  width: 80%;
+  margin: 27px auto;
+  border: none;
+  outline: none;
+  font-weight: 900;
+  font-size: 20px;
+  color: #2A2A2A;
+}
+
+.drik_card{
+  width: 100%;
+  height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 60px;
+}
+
+.drink_card_item{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Rectangle\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.drink_card_item:last-child{
+  background-image: url(../img/Rectangle\ 3\ \(1\).png);
+  margin-left: 20px;
+}
+
+.cart_text{
+  position: absolute;
+  right: 23px;
+  top: 56px;
+}
+.cart_text h2{
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.cart_text p{
+  color: #c3bebe;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cart_text > button{
+  background-color: #7FAD39;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
 /* END MAIN */
 
+/* START CAROUSEL CARD */
+ 
+.carousel_card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.box{
+  width: 367px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.box span{
+  font-weight: 900;
+}
+.box p{
+  margin-bottom: 15px;
+}
+.box .box_img{
+  width: 110px;
+  height: 110px;
+  background: #F5F5F5;
+}
+.box .box_text{
+  margin-left: 10px;
+}
+/* END CAROUSEL CARD */
